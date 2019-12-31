@@ -5,12 +5,17 @@ class Test{
 		return a+b;
 	}
 	
+	public static void show() {
+		System.out.println("In main Class");
+	}
+	
 }
 public class FirstJenkin {
 	
 public static void main(String[] args) {
 	int sum=Test.sum(2, 3);
 	System.out.println(sum);
+	Test.show();
 	
 }
 }
